@@ -14,3 +14,6 @@ target.tagName
     //target,toElement, srcElement,currentTarget,
     //clientX, clientY, screenX, screenY
     //altkey, ctrlkey,shiftkey,keyCode
+
+
+<!-- const data=JSON.parse(this.responseText) -->
