@@ -28,6 +28,8 @@ one(2,3)
 const addone=(num1,num2)=> ({username:"radha maa"})
 console.log(addone(3,4));
 
+// arrow function cannot use this
+
 
 
 
