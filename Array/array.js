@@ -2,16 +2,16 @@
 
 const myArr=[1,2,3,4,5]
 
-console.log(myArr);
+// console.log(myArr);
 
 const myArr1= myArr.slice(1,3)
-console.log("slice ka actual value",myArr);
-console.log("slice :",myArr1);
+// console.log("slice :",myArr1);
+// console.log("slice ka actual value",myArr);
 
 
-const myArr2=myArr.splice(1,3)
+const myArr2=myArr.splice(2,3)
+// console.log("splice",myArr2);
 // console.log("splice ka actual value",myArr);
-console.log("splice",myArr2);
 
 // the main diff btw splice and slice is that splice remove the value from original array but not slice
 
@@ -19,31 +19,31 @@ console.log("splice",myArr2);
 
 // Pop,push,indexof,includes,unshift,shift
 
-// let pops=[1,2,3,4,5]
-// pops.pop()
-// console.log(pops);
+let pops=[1,2,3,4,5]
+pops.pop()
+console.log("pop:- ",pops);
 
-// let pushs=[1,2,3,4,5]
-// pushs.push(6)
-// console.log(pushs);
+let pushs=[1,2,3,4,5]
+pushs.push(6)
+console.log("push:- ",pushs);
 
-// let indexs=[1,2,3,4,5]
-// // check=indexs.indexOf(3)
-// check=indexs.indexOf(10)
-// console.log(check);
+let indexs=[1,2,3,4,5]
+// check=indexs.indexOf(3)
+check=indexs.indexOf(10)
+console.log("indexof:- ",check);
 
-// let include=[1,2,3,4,5]
-// console.log(include.includes(3));
-// console.log(include.includes(0));
+let include=[1,2,3,4,5]
+console.log("include check:- ",include.includes(3));
+console.log("include check:- ",include.includes(0));
 
-// let shifts=[1,2,3,4,5]
-// shifts.shift()
-// console.log(shifts);
+let shifts=[1,2,3,4,5]
+shifts.shift()
+console.log("shifts:- ",shifts);
 
 
-// let unshifts=[1,2,3,4,5]
-// unshifts.unshift(0)
-// console.log(unshifts);
+let unshifts=[1,2,3,4,5]
+unshifts.unshift(0)
+console.log("unshift:- ",unshifts);
 
 // pop(): Removes the last element from an array.
 // push(element): Adds an element to the end of the array.
@@ -54,3 +54,18 @@ console.log("splice",myArr2);
 
 let myArray= new Array(1,2,3,4,5,6,7)
 console.log(myArray);
+
+let myArray1= new Array(7).fill(0) //it will create an array of 7 empty items
+console.log(myArray1);
+
+let b = [undefined, undefined, undefined];
+let result = b.map(x => 1);
+console.log(result);
+
+let d = [, , , ];
+let resultdd = d.map(x => 1);
+console.log(resultdd);
+
+let c = new Array(3);
+let results = c.map(x => 1);
+console.log(results);
